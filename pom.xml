@@ -60,6 +60,11 @@
       <version>3.6.28</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.jboss.logging</groupId>
+      <artifactId>jboss-logging</artifactId>
+      <version>3.5.0.Final</version>
+    </dependency>
   </dependencies>
   <dependencyManagement>
     <dependencies>

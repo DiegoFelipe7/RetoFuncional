@@ -108,6 +108,11 @@ public class Correo {
     return valores;
     }
 
+    /**
+     * Metodo que envia los correo
+     * @return la lista con los correos que cumplen las condiciones
+     */
+
     public List<Gmail> correosEnviados() {
         var correos = correosConDominio();
         return correos.stream().map(correo -> {
