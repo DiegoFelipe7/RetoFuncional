@@ -1,6 +1,5 @@
 package co.sofka.com.clase;
 
-import java.util.List;
 
 public class Derivadas {
     private Integer valor;

@@ -41,15 +41,17 @@ public class Menu {
 
      public static void ejercicio3(){
 
-         logger.info("------------------Derivadas  --------------------");
+        logger.info("------------------Derivadas  --------------------");
          Ecuaciones ecuaciones = new Ecuaciones();
          var derivadas= ecuaciones.derivadas();
          derivadas.forEach(logger::info);
          logger.info("--------------------------------------" + "\n");
 
          logger.info("------------------Integral  --------------------");
-
+         var integral = ecuaciones.integrales();
+         integral.forEach(logger::info);
          logger.info("--------------------------------------" + "\n");
+
      }
 
 }
